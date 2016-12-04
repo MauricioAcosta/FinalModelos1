@@ -1,13 +1,15 @@
 package Observer;
 
-public class CanastaVisible extends Observable{
-    private int peso,pesoMaximo;
+public class CanastaVisible extends Observable {
+
+    private int peso, pesoMaximo;
 
     public CanastaVisible(int valor, int maximo) {
         super();
         pesoMaximo = maximo;
         peso = enRango(valor);
     }
+
     private int enRango(int n) {
         if (n < 0) {
             return 0;
@@ -16,16 +18,19 @@ public class CanastaVisible extends Observable{
         } else {
             return n;
         }
-        
+
     }
-    public int valorPeso(){
+
+    public int valorPeso() {
         return this.peso;
     }
-    public int valorPesoMaximo(){
+
+    public int valorPesoMaximo() {
         return this.pesoMaximo;
     }
-    public void aumentaPeso(int n){
-        peso=enRango(peso+n);
+
+    public void aumentaPeso(int n) {
+        peso = enRango(peso + n);
         notificarObservadores();
     }
 }

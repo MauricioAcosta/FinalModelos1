@@ -1,10 +1,7 @@
 package MetodoFabrica;
 
-
-
 class ProductoAuto extends Producto {
 
-    
     String agregado = "";
 
     @Override
@@ -14,5 +11,5 @@ class ProductoAuto extends Producto {
         }
         return "\n Se ensamblo un auto con las siguientes partes: " + agregado;
     }
-    
+
 }

@@ -1,7 +1,7 @@
-
 package Decorador;
 
-public abstract class Material extends Jugete{
+public abstract class Material extends Jugete {
+
     private Jugete jugete;
 
     public Material(Jugete jugete) {
@@ -15,6 +15,5 @@ public abstract class Material extends Jugete{
     public void setJugete(Jugete jugete) {
         this.jugete = jugete;
     }
-    
-    
+
 }

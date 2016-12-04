@@ -14,9 +14,8 @@ public final class Cliente {
         Balanza objadap = new BalanzaAdaptado();
         LecturaNumero lee = new ConversionNumero();
         Conversion sale = new Imprimir();
-        double peso=objadap.convertir(Double.parseDouble(lee.leer()));
+        double peso = objadap.convertir(Double.parseDouble(lee.leer()));
         sale.escritura(peso);
-        
 
     }
 }

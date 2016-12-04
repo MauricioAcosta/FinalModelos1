@@ -15,13 +15,13 @@ public class Central {
     }
 
     public String operador() {
-        String uno = separador.separar(detector.detectarFruta(), detector.detectarVerdura(), 
+        String uno = separador.separar(detector.detectarFruta(), detector.detectarVerdura(),
                 detector.detectarJuguetes());
-        
-        String dos = compresor.comprimir(separador.getFrutas(), separador.getVerduras(), 
+
+        String dos = compresor.comprimir(separador.getFrutas(), separador.getVerduras(),
                 separador.getJuguetes());
-        
-        String tres = empacadora.empacar(separador.getFrutas(), separador.getVerduras(), 
+
+        String tres = empacadora.empacar(separador.getFrutas(), separador.getVerduras(),
                 separador.getJuguetes());
         return uno + dos + tres;
     }

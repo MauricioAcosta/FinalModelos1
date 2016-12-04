@@ -17,9 +17,9 @@ public class Launcher {
             System.out.println("Ingrese el peso del producto");
             organicos.aumentaPeso(Integer.parseInt(in.readLine()));
             if (organicos.getObservadores().contains(medidor)) {
-                op =0;
-            }else{
-                op=1;
+                op = 0;
+            } else {
+                op = 1;
             }
         }
 

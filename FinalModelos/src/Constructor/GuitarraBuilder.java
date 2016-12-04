@@ -1,6 +1,7 @@
 package Constructor;
 
-public class GuitarraBuilder extends InstrumentoBuilder{
+public class GuitarraBuilder extends InstrumentoBuilder {
+
     @Override
     public void buildMastil() {
         instrumento.setMastil("1 pedazo de madera grande, palillos de madera de pincho");

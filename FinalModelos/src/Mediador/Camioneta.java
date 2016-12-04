@@ -1,7 +1,9 @@
 package Mediador;
-public class Camioneta implements VehiculoDeCarga{
+
+public class Camioneta implements VehiculoDeCarga {
+
     private String nombreConductor;
-    private int[] coordenadas=new int[2];
+    private int[] coordenadas = new int[2];
 
     public Camioneta(String nombreConductor) {
         this.nombreConductor = nombreConductor;
@@ -14,8 +16,8 @@ public class Camioneta implements VehiculoDeCarga{
 
     @Override
     public void setCoordnada(int x, int y) {
-        coordenadas[0]=x;
-        coordenadas[1]=y;
+        coordenadas[0] = x;
+        coordenadas[1] = y;
     }
 
     public String getNombreConductor() {
@@ -25,5 +27,5 @@ public class Camioneta implements VehiculoDeCarga{
     public void setNombreConductor(String nombreConductor) {
         this.nombreConductor = nombreConductor;
     }
-    
+
 }

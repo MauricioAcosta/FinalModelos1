@@ -2,11 +2,11 @@ package Estrategia;
 
 import EntradaSalida.Salida.*;
 
-public class Juguetes implements Estrategia{
-    
+public class Juguetes implements Estrategia {
+
     Imprimir sale = new Imprimir();
     private String[] contenedor;
-    private int juguetes;    
+    private int juguetes;
 
     Juguetes(String[] con) {
         this.contenedor = con;
@@ -21,5 +21,5 @@ public class Juguetes implements Estrategia{
         }
         return "Hay: " + juguetes + " juguetes.";
     }
-    
+
 }

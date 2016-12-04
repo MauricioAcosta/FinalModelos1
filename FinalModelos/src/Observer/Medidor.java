@@ -13,11 +13,11 @@ public class Medidor implements Observador {
     public boolean actualizar() {
         if (canasto.valorPeso() < canasto.valorPesoMaximo()) {
             medicion = "La cantidad de productos no he llenado la canasta";
-            
+
             System.out.println(medicion);
             return true;
-        }else{
-            medicion="La canasta se lleno, ya no puede ingresar mas productos";
+        } else {
+            medicion = "La canasta se lleno, ya no puede ingresar mas productos";
             System.out.println(medicion);
             return false;
         }

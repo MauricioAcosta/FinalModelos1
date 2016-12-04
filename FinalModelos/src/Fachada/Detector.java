@@ -21,7 +21,7 @@ public class Detector {
         sale.escritura("se detectaron : " + frutas + " unidades de fruta");
         return frutas;
     }
-    
+
     public int detectarVerdura() {
         for (int i = 0; i < producto.length; i++) {
             if (producto[i].equals("cebolla") || producto[i].equals("tomate")) {
@@ -31,7 +31,7 @@ public class Detector {
         sale.escritura("se detectaron : " + verduras + " unidades de verduras");
         return verduras;
     }
-    
+
     public int detectarJuguetes() {
         for (int i = 0; i < producto.length; i++) {
             if (producto[i].equals("motico") || producto[i].equals("carrito")) {

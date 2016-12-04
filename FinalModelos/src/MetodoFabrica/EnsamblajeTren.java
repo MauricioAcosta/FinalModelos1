@@ -1,9 +1,7 @@
 package MetodoFabrica;
 
-
 public class EnsamblajeTren extends Producto {
 
-   
     String agregado = "";
 
     @Override

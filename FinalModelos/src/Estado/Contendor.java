@@ -1,7 +1,7 @@
 package Estado;
 
 public class Contendor {
-    
+
     private Funcion estado;
 
     public Funcion getEstado() {
@@ -11,9 +11,9 @@ public class Contendor {
     public void setEstado(Funcion estado) {
         this.estado = estado;
     }
-    
-    public void peticion(){
+
+    public void peticion() {
         estado.operacion();
     }
-    
+
 }

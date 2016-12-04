@@ -1,24 +1,24 @@
 package FabricaAbstracta;
+
 /**
  *
  * @author dnhop_000
  */
-public class FabricaPlastico implements Material{
+public class FabricaPlastico implements Material {
 
     AvionPlastico avion;
     CamaraPlastico camara;
-   
+
     @Override
     public String ensamblarCamara() {
-        camara=new CamaraPlastico();
+        camara = new CamaraPlastico();
         return camara.ensamblado();
     }
 
-
     @Override
     public String ensamblarAvion() {
-        avion=new AvionPlastico();
+        avion = new AvionPlastico();
         return avion.ensamblado();
     }
-    
+
 }

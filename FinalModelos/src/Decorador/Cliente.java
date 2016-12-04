@@ -79,7 +79,7 @@ public class Cliente extends JFrame implements ActionListener {
             if (plastico.isSelected()) {
                 jugete = new Plastico(jugete);
             }
-            tMostrar.setText(jugete.getDescripcion() + "\n" + "el costo es: "+jugete.calculoPrecio());
+            tMostrar.setText(jugete.getDescripcion() + "\n" + "el costo es: " + jugete.calculoPrecio());
         }
         if (cohete.isSelected()) {
             Jugete jugete = new Cohete();

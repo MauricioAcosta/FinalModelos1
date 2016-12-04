@@ -12,7 +12,7 @@ public class AccionarMaquina {
 
         LecturaNumero lee = new ConversionNumero();
         Conversion sale = new Imprimir();
-     
+
         int Producto = Integer.parseInt(lee.leer());
 
         MaquinaProcesado maquina = new MaquinaProcesado(Producto);

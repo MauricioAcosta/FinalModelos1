@@ -35,7 +35,7 @@ public class Cliente extends JFrame implements ActionListener {
         atender.setBounds(180, 55, 100, 30);
         atender.addActionListener(this);
         add(atender);
-        
+
         mostrar = new JTextArea();
         mostrar.setBounds(20, 95, 400, 100);
         add(mostrar);
@@ -53,7 +53,7 @@ public class Cliente extends JFrame implements ActionListener {
             supervisor.setSiguiente(gerente);
             gerente.setSiguiente(director);
             int peso = Integer.parseInt(cantidad.getText());
-            mostrar.setText(vendedor.atenderCliente(peso));  
+            mostrar.setText(vendedor.atenderCliente(peso));
         }
     }
 

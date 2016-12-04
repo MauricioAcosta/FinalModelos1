@@ -1,6 +1,6 @@
 package Constructor;
 
-public class BanjoBuilder extends InstrumentoBuilder{
+public class BanjoBuilder extends InstrumentoBuilder {
 
     @Override
     public void buildMastil() {
@@ -21,5 +21,5 @@ public class BanjoBuilder extends InstrumentoBuilder{
     public void buildCuerdas() {
         instrumento.setCuerdas("4 mtros de nylon");
     }
-    
+
 }

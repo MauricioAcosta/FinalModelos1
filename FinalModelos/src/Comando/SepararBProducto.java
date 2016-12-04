@@ -1,7 +1,7 @@
 package Comando;
 
-public class SepararBProducto implements Comando{
-    
+public class SepararBProducto implements Comando {
+
     private MaquinaProcesado maquina;
 
     public SepararBProducto(MaquinaProcesado m) {
@@ -12,5 +12,5 @@ public class SepararBProducto implements Comando{
     public String ejecutar() {
         return maquina.separar();
     }
-    
+
 }

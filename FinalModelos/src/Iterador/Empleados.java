@@ -8,12 +8,12 @@ public class Empleados {
         empleado = new String[largo];
     }
 
-    public String getValor(int pos){ 
-        return empleado[pos]; 
+    public String getValor(int pos) {
+        return empleado[pos];
     }
 
-    public void setValor(int pos, String valor){ 
-        empleado[pos] = valor; 
+    public void setValor(int pos, String valor) {
+        empleado[pos] = valor;
     }
 
     public int dimension() {

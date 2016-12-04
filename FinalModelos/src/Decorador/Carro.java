@@ -1,10 +1,9 @@
-
 package Decorador;
 
-public class Carro extends Jugete{
+public class Carro extends Jugete {
 
     public Carro() {
-        descripcion="El jugete es un carro";
+        descripcion = "El jugete es un carro";
     }
 
     @Override
@@ -12,10 +11,9 @@ public class Carro extends Jugete{
         return descripcion;
     }
 
-    
     @Override
     public int calculoPrecio() {
         return 3000;
     }
-    
+
 }

@@ -35,8 +35,8 @@ public class Cliente extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-            Object f = e.getSource();
-            if (f == accionar) {
+        Object f = e.getSource();
+        if (f == accionar) {
             String[] producto = {"carrito", "motico", "tomate",
                 "cebolla", "mango", "banano"};
 

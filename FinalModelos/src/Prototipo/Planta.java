@@ -1,7 +1,7 @@
 package Prototipo;
 
-public class Planta implements Fabrica{
-    
+public class Planta implements Fabrica {
+
     public String tipo;
     public double capacidad, consumoEnergia;
 
@@ -15,5 +15,5 @@ public class Planta implements Fabrica{
     public Object clonar(String tipo, double capacidad, double consumoEnergia) {
         return new Planta(this.tipo, this.capacidad, this.consumoEnergia);
     }
-    
+
 }

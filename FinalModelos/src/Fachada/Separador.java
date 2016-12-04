@@ -24,8 +24,8 @@ public class Separador {
         verduras = (int) (Math.random() * detectarVerdura + 0);
         juguetes = (int) (Math.random() * detectarJuguete + 0);
         return "\nse separaron: " + frutas + " unidades de fruta"
-        + "\nse separaron: " + verduras + " unidades de verdura"
-        + "\nse separaron: " + juguetes + " unidades de juguetes";
+                + "\nse separaron: " + verduras + " unidades de verdura"
+                + "\nse separaron: " + juguetes + " unidades de juguetes";
     }
 
 }

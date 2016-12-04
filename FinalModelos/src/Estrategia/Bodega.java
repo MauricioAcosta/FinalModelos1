@@ -22,26 +22,26 @@ public class Bodega extends JFrame implements ActionListener {
         setSize(500, 300);
 
         setLayout(null);
-        
+
         frutas = new JButton("frutas");
         frutas.setBounds(20, 20, 200, 30);
         frutas.addActionListener(this);
         add(frutas);
-        
+
         verduras = new JButton("verduras");
         verduras.setBounds(250, 20, 200, 30);
         verduras.addActionListener(this);
         add(verduras);
-        
+
         juguetes = new JButton("juguetes");
         juguetes.setBounds(150, 70, 200, 30);
         juguetes.addActionListener(this);
         add(juguetes);
-        
+
         tmostar = new JTextArea();
         tmostar.setBounds(20, 120, 400, 100);
         add(tmostar);
-        
+
     }
 
     @Override

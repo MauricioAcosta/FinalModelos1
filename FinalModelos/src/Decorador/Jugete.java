@@ -1,8 +1,8 @@
-
 package Decorador;
 
 public abstract class Jugete {
-    String descripcion="";
+
+    String descripcion = "";
 
     public abstract String getDescripcion();
 

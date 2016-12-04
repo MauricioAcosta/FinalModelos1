@@ -1,6 +1,7 @@
 package Constructor;
 
 public class EnsambladoraDeInstrumentos {
+
     private InstrumentoBuilder instrumentoBuilder;
 
     public EnsambladoraDeInstrumentos(InstrumentoBuilder instrumentoBuilder) {
@@ -14,11 +15,12 @@ public class EnsambladoraDeInstrumentos {
     public void setInstrumentoBuilder(InstrumentoBuilder instrumentoBuilder) {
         this.instrumentoBuilder = instrumentoBuilder;
     }
-    public Instrumento getInstrumento(){
+
+    public Instrumento getInstrumento() {
         return instrumentoBuilder != null ? instrumentoBuilder.getInstrumento() : null;
     }
-    
-    public void ensamblarInstrumento(){
+
+    public void ensamblarInstrumento() {
         instrumentoBuilder.ensamblarInstrumento();
         instrumentoBuilder.buildCabeza();
         instrumentoBuilder.buildCaja();

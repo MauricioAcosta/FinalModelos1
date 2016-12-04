@@ -1,7 +1,8 @@
 package Constructor;
 
 public class Instrumento {
-    private String cabeza="",mastil="",caja="",cuerdas="";
+
+    private String cabeza = "", mastil = "", caja = "", cuerdas = "";
 
     public String getCabeza() {
         return cabeza;
@@ -34,5 +35,5 @@ public class Instrumento {
     public void setCuerdas(String cuerdas) {
         this.cuerdas = cuerdas;
     }
-    
+
 }

@@ -1,7 +1,5 @@
 package MetodoFabrica;
 
-
-
 class ProductoAvion extends Producto {
 
     String agregado = "";

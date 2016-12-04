@@ -1,7 +1,7 @@
-
 package Constructor;
 
-public class BajoBuilder extends InstrumentoBuilder{
+public class BajoBuilder extends InstrumentoBuilder {
+
     @Override
     public void buildMastil() {
         instrumento.setMastil("1 pedazo de madera grande, palillos de madera de paleta");

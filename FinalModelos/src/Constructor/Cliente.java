@@ -27,7 +27,7 @@ public class Cliente extends JFrame implements ActionListener {
         bBanjo.setBounds(20, 20, 100, 30);
         bBanjo.addActionListener(this);
         add(bBanjo);
-        
+
         bGuitarra = new JButton("Guitarra");
         bGuitarra.setBounds(340, 20, 100, 30);
         bGuitarra.addActionListener(this);

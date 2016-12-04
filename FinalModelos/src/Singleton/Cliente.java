@@ -65,7 +65,7 @@ public class Cliente extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object f = e.getSource();
         if (f == bLeer) {
-            Contenedor grua = Contenedor.getContenedor(Double.parseDouble(tCapacidad.getText()), 
+            Contenedor grua = Contenedor.getContenedor(Double.parseDouble(tCapacidad.getText()),
                     Double.parseDouble(tTamanio.getText()), Double.parseDouble(tVelocidad.getText()));
 
             tMostrar.setText(grua.movimientosTiempo());

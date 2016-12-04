@@ -39,7 +39,7 @@ public class Cliente extends JFrame implements ActionListener {
         calcular.setBounds(150, 100, 200, 30);
         calcular.addActionListener(this);
         add(calcular);
-        
+
         tmostrar = new JTextArea();
         tmostrar.setBounds(30, 150, 400, 200);
         add(tmostrar);

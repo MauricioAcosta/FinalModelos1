@@ -48,33 +48,31 @@ public class Mediador extends JFrame {
     }
 
     public static void main(String[] args) throws IOException {
-        int x,y;
-         Imprimir imprime=new Imprimir();
-         ConversionNumero lee=new ConversionNumero();
-         imprime.escritura("Digite su posicion en x:");
-         x=lee.convertirInt();
-         imprime.escritura("Digite su posicion en y:");
-         y=lee.convertirInt();
-        
-         BodegaCental central=new BodegaCental();
-         Camioneta camioneta=new Camioneta("Jose");
-         imprime.escritura("digite la posicion x,y de jose");
-         camioneta.setCoordnada(lee.convertirInt(), lee.convertirInt());
-         central.registrar(camioneta);
-         Camioneta camionetaRoja=new Camioneta("darwin");
-         imprime.escritura("digite la posicion x,y de darwin");
-         camionetaRoja.setCoordnada(lee.convertirInt(), lee.convertirInt());
-         central.registrar(camionetaRoja);
-         Camioneta camionetaAzul=new Camioneta("david");
-         imprime.escritura("digite la posicion x,y de david");
-         camionetaAzul.setCoordnada(lee.convertirInt(), lee.convertirInt());
-         central.registrar(camionetaAzul);
-         Camioneta asiganda=central.asignaCamioneta(x,y);
-        
-        
-        
-         imprime.escritura("La camioneta seleccionada para tu viaje fue: "+asiganda.getNombreConductor());
-         
+        int x, y;
+        Imprimir imprime = new Imprimir();
+        ConversionNumero lee = new ConversionNumero();
+        imprime.escritura("Digite su posicion en x:");
+        x = lee.convertirInt();
+        imprime.escritura("Digite su posicion en y:");
+        y = lee.convertirInt();
+
+        BodegaCental central = new BodegaCental();
+        Camioneta camioneta = new Camioneta("Jose");
+        imprime.escritura("digite la posicion x,y de jose");
+        camioneta.setCoordnada(lee.convertirInt(), lee.convertirInt());
+        central.registrar(camioneta);
+        Camioneta camionetaRoja = new Camioneta("darwin");
+        imprime.escritura("digite la posicion x,y de darwin");
+        camionetaRoja.setCoordnada(lee.convertirInt(), lee.convertirInt());
+        central.registrar(camionetaRoja);
+        Camioneta camionetaAzul = new Camioneta("david");
+        imprime.escritura("digite la posicion x,y de david");
+        camionetaAzul.setCoordnada(lee.convertirInt(), lee.convertirInt());
+        central.registrar(camionetaAzul);
+        Camioneta asiganda = central.asignaCamioneta(x, y);
+
+        imprime.escritura("La camioneta seleccionada para tu viaje fue: " + asiganda.getNombreConductor());
+
         //Mediador main = new Mediador();
     }
 
