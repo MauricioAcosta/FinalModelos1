@@ -50,7 +50,7 @@ public class Mediador extends JFrame {
     public static void main(String[] args) throws IOException {
         int x, y;
         Imprimir imprime = new Imprimir();
-        ConversionNumero lee = new ConversionNumero();
+        ConversionEntrada lee = new ConversionEntrada();
         imprime.escritura("Digite su posicion en x:");
         x = lee.convertirInt();
         imprime.escritura("Digite su posicion en y:");

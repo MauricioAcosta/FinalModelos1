@@ -1,7 +1,7 @@
 package Comando;
 
-import EntradaSalida.Entrada.ConversionNumero;
-import EntradaSalida.Entrada.LecturaNumero;
+import EntradaSalida.Entrada.ConversionEntrada;
+import EntradaSalida.Entrada.Lector;
 import EntradaSalida.Salida.Conversion;
 import EntradaSalida.Salida.Imprimir;
 import java.io.IOException;
@@ -10,7 +10,7 @@ public class AccionarMaquina {
 
     public static void main(String[] args) throws IOException {
 
-        LecturaNumero lee = new ConversionNumero();
+        Lector lee = new ConversionEntrada();
         Conversion sale = new Imprimir();
 
         int Producto = Integer.parseInt(lee.leer());

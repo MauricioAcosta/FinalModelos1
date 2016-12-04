@@ -6,7 +6,7 @@ import EntradaSalida.Salida.Imprimir;
 public class PruebaAdaptador {
 
     public static void main(String[] args) throws IOException {
-        Lectura in = new ConversionNumero();
+        Lectura in = new ConversionEntrada();
         Imprimir out = new Imprimir();
 
         out.escritura("Ingrese un numero para calcular el IMC");

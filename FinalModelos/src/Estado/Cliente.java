@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Cliente {
 
     public static void main(String arg[]) throws IOException {
-        Lectura entra = new ConversionNumero();
+        Lectura entra = new ConversionEntrada();
         Imprimir sale = new Imprimir();
         double dimension = 0, cargado = 0;
 

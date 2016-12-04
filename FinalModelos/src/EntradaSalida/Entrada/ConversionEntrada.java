@@ -2,13 +2,13 @@ package EntradaSalida.Entrada;
 
 import java.io.IOException;
 
-public class ConversionNumero extends LecturaNumero implements Lectura {
+public class ConversionEntrada extends Lector implements Lectura {
 
-    LecturaNumero objAdap;
+    Lector objAdap;
     String valor;
 
-    public ConversionNumero() throws IOException {
-        objAdap = new LecturaNumero();
+    public ConversionEntrada() throws IOException {
+        objAdap = new Lector();
 
     }
 
